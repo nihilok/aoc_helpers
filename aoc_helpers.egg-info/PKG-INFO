@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: aoc-helpers
+Version: 0.0.1
+Summary: Tools to help with Advent of Code puzzles
+Home-page: https://github.com/nihilok/aoc-helpers
+Author: nihilok
+Author-email: mjfullstack@gmail.com
+License: MIT
+Description: # Advent of Code Helpers
+        
+        ```python3
+        from aoc_helpers import get_input
+        
+        def parse_input():
+            day_5_input = get_input(5)
+            ...
+        ```
+        
+        When first running you will be asked for your session key, which can be obtained via a browser.
+        
+        2021-12-30 - v0.0.1
+        -------------------
+        - `get_input` helper, takes day number as an argument, caches result in `~/aoc_helpers/input-<day>.txt` unless different
+        parent directory specified returns raw input data for given day.
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
